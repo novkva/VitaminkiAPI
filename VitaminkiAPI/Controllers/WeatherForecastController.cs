@@ -29,5 +29,17 @@ namespace VitaminkiAPI.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        public void GetProduct(int id)
+        {
+
+        }
+
+        [HttpGet]
+        public void GetVitamin(int id)
+        {
+
+        }
     }
 }
