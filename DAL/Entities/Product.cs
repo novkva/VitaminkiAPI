@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    internal class Product
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Calories { get; set; }
-        public List<Vitamin> Vitamins { get; set; }
+        public List<Ingredient> Vitamins { get; set; }
     }
 }

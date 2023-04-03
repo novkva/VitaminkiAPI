@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    internal class Vitamin
+    public class Ingredient
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Product> Products { get; set; }
         public Category Category { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

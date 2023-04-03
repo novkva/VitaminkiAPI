@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    internal enum Category
+    public enum Category
     {
         Vitamin,
-        Mineral,
+        Macroelement,
         Microelement
     }
 }
