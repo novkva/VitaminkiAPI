@@ -10,7 +10,7 @@ namespace DAL.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Calories { get; set; }
+        public int Calories { get; set; }
         public List<Ingredient> Vitamins { get; set; }
     }
 }
