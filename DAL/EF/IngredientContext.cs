@@ -18,6 +18,11 @@ namespace DAL.EF
             Database.EnsureCreated();
         }
 
+        public IngredientContext(DbContextOptions<IngredientContext> options)
+        : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=Vitamins.db");
