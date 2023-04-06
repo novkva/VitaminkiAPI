@@ -4,11 +4,11 @@ namespace VitaminkiAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class ProductController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<ProductController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public ProductController(ILogger<ProductController> logger)
         {
             _logger = logger;
         }
